@@ -1,0 +1,9 @@
+.button {
+  display: grid;
+  place-items: center;
+  width: 160px;
+  height: 35px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
