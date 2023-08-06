@@ -23,7 +23,7 @@ const Items = () => {
         <span>
           <Button
             text={"Masukkan keranjang"}
-            className={"w-full font-normal md:mt-5"}
+            className={"w-full font-normal text-sm md:mt-5"}
           />
         </span>
       </div>
