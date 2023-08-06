@@ -1,0 +1,56 @@
+.container {
+  width: 47%;
+  border-radius: 5px;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.imageContainer p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  background-color: darkturquoise;
+  padding: 10px 8px;
+  border-radius: 5px;
+}
+
+.description {
+  text-align: start;
+  font-weight: 600;
+  padding: 15px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 24%;
+  }
+  .container:hover {
+    box-shadow: 2px 2px 10px rgb(232, 232, 232);
+  }
+  .container:hover span {
+    display: contents;
+  }
+  .description span {
+    display: none;
+    margin-top: 10px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

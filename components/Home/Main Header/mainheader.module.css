@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  height: 225px;
+  overflow-x: auto;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: center;
+  gap: 10px;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    height: 464px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 100vw;
+    height: 106vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

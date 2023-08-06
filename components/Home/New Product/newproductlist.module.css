@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 30px 10px;
+  /* background-color: yellow; */
+}
+
+.itemContainer {
+  width: 100%;
+  margin-top: 30px;
+  /* background-color: yellow; */
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 40px 0px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 30px;
+  }
+  .itemContainer {
+    flex-wrap: nowrap;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    padding: 30px 60px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

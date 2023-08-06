@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+  margin-top: 200px;
   background-color: whitesmoke;
   padding: 40px 16px;
   gap: 20px;
@@ -52,6 +52,7 @@
   margin-bottom: 40px;
   text-align: center;
   padding: 20px 0;
+  padding-bottom: 40px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -73,6 +74,11 @@
     display: contents;
     display: flex;
     flex-direction: column;
+  }
+
+  .copyright {
+    padding-bottom: 0px;
+    margin-bottom: 20px;
   }
 }
 
