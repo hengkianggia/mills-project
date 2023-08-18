@@ -29,7 +29,7 @@
   text-align: center;
 }
 
-.listLaptop ul{
+.listLaptop ul {
   display: none;
 }
 
@@ -91,13 +91,27 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .listLaptop ul{
+  .listLaptop {
+    height: 100%;
+    /* background-color: blue; */
+  }
+  .listLaptop ul {
     display: flex;
+    /* background-color: red; */
+    height: 100%;
   }
 
   .listLaptop ul li {
+    height: 100%;
+    padding: 0 4px;
+    padding-top: 24px;
+    /* background-color: yellow; */
     margin: 0 10px;
     font-size: 14px;
+  }
+
+  .listLaptop ul li:hover {
+    background-color: rgb(197, 197, 197);
   }
 
   .nav {

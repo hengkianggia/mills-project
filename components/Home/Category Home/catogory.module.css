@@ -34,7 +34,7 @@
   border: 2px solid white;
   color: white;
   font-weight: 600;
-  z-index: 10;
+  z-index: 5;
   display: grid;
   place-items: center;
 }

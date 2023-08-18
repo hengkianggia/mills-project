@@ -21,37 +21,41 @@ const Navbar = () => {
     <>
       <nav className={styles.nav}>
         <div>
-          <Image src={image} className={styles.image} />
+          <Link href={"/"}>
+            <Image src={image} className={styles.image} />
+          </Link>
         </div>
 
         {open ? (
           <div className={styles.list}>
             <ul>
-              <li>
-                <Link href={""}>INDONESIA NATIONAL TEAM</Link>
+              <li onClick={openHandler}>
+                <Link href={"/collections/indonesia-collections"}>
+                  INDONESIA NATIONAL TEAM
+                </Link>
               </li>
-              <li>
-                <Link href={""}>FOOTBALL CLUB</Link>
+              <li onClick={openHandler}>
+                <Link href={"/collections/football-club"}>FOOTBALL CLUB</Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>BASKETBALL CLUB</Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>MEN </Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>WOMEN </Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>KIDS</Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>FOOTWEAR </Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>BRANDS </Link>
               </li>
-              <li>
+              <li onClick={openHandler}>
                 <Link href={""}>SALE </Link>
               </li>
             </ul>
@@ -63,10 +67,12 @@ const Navbar = () => {
         <div className={styles.listLaptop}>
           <ul>
             <li>
-              <Link href={""}>INDONESIA NATIONAL TEAM</Link>
+              <Link href={"/collections/indonesia-collections"}>
+                INDONESIA NATIONAL TEAM
+              </Link>
             </li>
             <li>
-              <Link href={""}>FOOTBALL CLUB</Link>
+              <Link href={"/collections/football-club"}>FOOTBALL CLUB</Link>
             </li>
             <li>
               <Link href={""}>BASKETBALL CLUB</Link>

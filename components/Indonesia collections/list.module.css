@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  min-height: 500px;
+  /* background-color: red; */
+  padding: 0 14px;
+}
+
+.container .topFilter {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.topFilter .right {
+  display: flex;
+  gap: 20px;
+}
+
+.right span {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.listContainer {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 0 28px;
+  }
+
+  .listContainer {
+    margin-top: 20px;
+    gap: 10px 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    padding: 0 40px;
+  }
+
+  .listContainer {
+    margin-top: 25px;
+    gap: 30px 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
