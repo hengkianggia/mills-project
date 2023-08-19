@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+  /* background-color: yellow; */
+}
+
+.container span h2 {
+  font-weight: 600;
+}
+.container span p {
+  font-size: 22px;
+  font-weight: 600;
+  color: orange;
+}
+.container form {
+  width: 100%;
+  /* background-color: yellowgreen; */
+  margin-top: 20px;
+}
+.container .description {
+  /* background-color: red; */
+  width: 100%;
+  margin-top: 40px;
+}
+.description .pengiriman {
+  width: 100%;
+  /* background-color: yellow; */
+  margin-top: 20px;
+}
+.pengiriman .inputPengiriman {
+  margin-top: 10px;
+  width: 100%;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid gray;
+}
+.inputPengiriman div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+form .inputan {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px 0;
+}
+.inputan .customInput {
+  width: 48%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+}
+.customInput select {
+  padding: 8px;
+  border: 1px solid gray;
+}
+.customInput .jumlah {
+  display: flex;
+  /* background-color: yellow; */
+  padding: 8px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid gray;
+}
+.jumlah span {
+  /* background-color: red; */
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  border-radius: 100%;
+  width: 15%;
+}
+.jumlah span:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+  width: 49%;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

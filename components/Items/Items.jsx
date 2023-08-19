@@ -9,7 +9,7 @@ const Items = () => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
-        <Link href={""}>
+        <Link href={"/product/product-1"}>
           <Image src={item1} width={200} alt="item1" className={styles.image} />
           <div>
             <p>Baru</p>

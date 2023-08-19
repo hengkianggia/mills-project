@@ -30,33 +30,35 @@ const Navbar = () => {
           <div className={styles.list}>
             <ul>
               <li onClick={openHandler}>
-                <Link href={"/collections/indonesia-collections"}>
+                <Link href={"/collections/indonesia collections"}>
                   INDONESIA NATIONAL TEAM
                 </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={"/collections/football-club"}>FOOTBALL CLUB</Link>
+                <Link href={"/collections/football club"}>FOOTBALL CLUB</Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>BASKETBALL CLUB</Link>
+                <Link href={"/collections/basketball club"}>
+                  BASKETBALL CLUB
+                </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>MEN </Link>
+                <Link href={"/collections/men"}>MEN </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>WOMEN </Link>
+                <Link href={"/collections/women"}>WOMEN </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>KIDS</Link>
+                <Link href={"/collections/kids"}>KIDS</Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>FOOTWEAR </Link>
+                <Link href={"/collections/footwear"}>FOOTWEAR </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>BRANDS </Link>
+                <Link href={"/collections/brands"}>BRANDS </Link>
               </li>
               <li onClick={openHandler}>
-                <Link href={""}>SALE </Link>
+                <Link href={"/collections/sale"}>SALE </Link>
               </li>
             </ul>
           </div>
@@ -67,33 +69,33 @@ const Navbar = () => {
         <div className={styles.listLaptop}>
           <ul>
             <li>
-              <Link href={"/collections/indonesia-collections"}>
+              <Link href={"/collections/indonesia collections"}>
                 INDONESIA NATIONAL TEAM
               </Link>
             </li>
             <li>
-              <Link href={"/collections/football-club"}>FOOTBALL CLUB</Link>
+              <Link href={"/collections/football club"}>FOOTBALL CLUB</Link>
             </li>
             <li>
-              <Link href={""}>BASKETBALL CLUB</Link>
+              <Link href={"/collections/basketball club"}>BASKETBALL CLUB</Link>
             </li>
             <li>
-              <Link href={""}>MEN </Link>
+              <Link href={"/collections/men"}>MEN </Link>
             </li>
             <li>
-              <Link href={""}>WOMEN </Link>
+              <Link href={"/collections/women"}>WOMEN </Link>
             </li>
             <li>
-              <Link href={""}>KIDS</Link>
+              <Link href={"/collections/kids"}>KIDS</Link>
             </li>
             <li>
-              <Link href={""}>FOOTWEAR </Link>
+              <Link href={"/collections/footwear"}>FOOTWEAR </Link>
             </li>
             <li>
-              <Link href={""}>BRANDS </Link>
+              <Link href={"/collections/brands"}>BRANDS </Link>
             </li>
             <li>
-              <Link href={""}>SALE </Link>
+              <Link href={"/collections/sale"}>SALE </Link>
             </li>
           </ul>
         </div>

@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./header.module.css";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({title}) => {
   return (
     <header className={`${styles.header}`}>
-      <h1>Indonesia Collections</h1>
+      <h1>{title}</h1>
       <div>
         <span>
           <Link href={"/"}>
